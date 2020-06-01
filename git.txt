@@ -1,0 +1,21 @@
+git init
+配置用户名：git config --global user.name "Tao_BlackPomelo"
+配置邮箱：git config --global user.name "18438621787@163.com"
+此时，
+会在C:\Users\Administrator目录下生成.gitconfig配置文件
+ssh-keygen -t rsa -C "18438621787@163.com"
+生成公钥和私钥
+按3次Enter
+
+不需要设置名称与密码
+
+
+cat ~/.ssh/id_rsa.pub
+
+查看公钥
+路径是C:\Users\Administrator\.ssh
+GitLab添加公钥----头像 settings
+复制黏贴公匙
+ ssh -T git@192.168.1.105
+
+测试配置文件是否正常工作
